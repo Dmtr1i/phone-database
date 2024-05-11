@@ -27,7 +27,7 @@ namespace phone_database
             conn.Execute("create table employees (id integer primary key not null, firstname text not null, lastname text not null, surname text, birthdate datetime not null, pass_num varchar(4) not null, pass_series varchar(6) not null)");
 
 
-
+            
 
 
 
